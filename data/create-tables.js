@@ -11,6 +11,7 @@ async function run() {
     await client.connect();
 
     // run a query to create tables
+    // SCHEMA DEFINITION
     await client.query(`
                 CREATE TABLE users (
                     id SERIAL PRIMARY KEY,
