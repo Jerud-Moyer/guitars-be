@@ -20,7 +20,7 @@ async function run() {
                 );
                 CREATE TABLE brands (
                   id SERIAL PRIMARY KEY NOT NULL,
-                  name VARCHAR(256) NOT NULL,
+                  name VARCHAR(256) NOT NULL
                 );
                 CREATE TABLE guitars (
                     id SERIAL PRIMARY KEY NOT NULL,
